@@ -5,20 +5,25 @@
     "apollo-client": "^2.6.10",
     "apollo-link-http": "^1.5.17",
     "bootstrap": "^5.0.1",
+    "express": "^4.17.1",
     "gql": "^1.1.2",
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^3.1.2",
     "next": "^10.2.0",
     "next-apollo": "^5.0.4",
     "react": "^17.0.2",
     "react-apollo": "^3.1.5",
     "react-dom": "^17.0.2",
     "reactstrap": "^8.9.0",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "strapi-sdk-javascript": "^0.3.3",
+    "uuid": "^8.3.2"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   }
 }
